@@ -8,9 +8,9 @@ struct s_element {
 
 typedef struct s_element element;
 
-element * addElement(element *primo, int value);
-void printList(element *primo);
-void emptyList(element *primo);
+element * addElement(element *first, int value);
+void printList(element *first);
+void emptyList(element *first);
 
 int main(int argc, char** argv) {
     element * first;
